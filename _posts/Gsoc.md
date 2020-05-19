@@ -1,13 +1,8 @@
 ---
 layout: post
-title: Gsoc 2020 with Sympy!
+title: You're up and running!
 ---
 
-From my first year i always wanted to get selected for Gsoc and do some exiciting projects, but never took it seriously. When i reached my
-third year i made up my mind that it is a high time for preparig for Gsoc. For Gsoc 2020 i choose to apply to Sympy as i found this
-community very intresting. I took a head start and started contributing for four months before the application period. It was a really
-nice experience and i meet some really interesting people. I am glad that i made the right decision of choosing this organization.
-My project is based on implementing faster factorization algorithms in Sympy. Curently sympy uses exponential time factorization algoritms
-which strugles to factorize numbers of greater than ~20 digits. I will be implementing Lenstra's Elliptic Curve Factorization and
-the Self-Initializing Quadratic Sieve. These are sub-exponential time algorithms which can easily factor number of less than 50 digits
-within seconds.
+Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+![_config.yml]({{ site.baseurl }}/images/config.png)
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
