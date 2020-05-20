@@ -8,6 +8,6 @@ From my first year i always wanted to get selected for Gsoc and do some exicitin
 ----
 ****
 
-###PROJECT:
+### PROJECT:
 
 My project is based on implementing faster factorization algorithms in Sympy. Curently sympy uses exponential time factorization algoritms which strugles to factorize numbers of greater than ~20 digits. I will be implementing Lenstra's Elliptic Curve Factorization and the Self-Initializing Quadratic Sieve. These are sub-exponential time algorithms which can easily factor number of less than 50 digits within seconds.
