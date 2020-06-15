@@ -38,3 +38,8 @@ After we exceed a certain bound then we factor the remainder by repeatedly calli
 <br><br>
 This ECM algorithm is working fine for now and the results were amazing. It provide a huge performance boost to Sympy for factorization of large numbers. Next step is to improve the documentation to make it more readable for users and i also plan to improve the test coverage of the code.
 For example: To factor `7060005655815754299976961394452809` ECM requires `~10sec` while Sympy is not able to factor it even in `~10mins`.
+
+### Week 2:
+
+The Lenstra's elliptic curve factorization function is completed. My main focus of this week was to improve the documentation of the `Point` class and `ecm_one_factor`. I added detailed description of the ECM algorithm and did some timing tests on this. I found that the ECM is significantly faster than the current Sympy's factorization algorithm. 
+For example : n = 38054075534607062154076930331414872406237 : `ecm(n)` took merely 2.85s compared to `factorint(n)` which took 135s to factorize n. The main power of the ECM algorithm lies in that it is a subexponential algorithm and its speed depends on the largest prime factor of the number. So, even if the number is really large if its larges prime factor is in the range of ~20 digits then ecm will have no problem in factorizing the number. On th other hand methods like pollard rho(used in `factorint`) is an exponential time algorithm and its speed depends on how large the number is. So, even if the number is a multiple of many small prime factors ~10 digits, the pollard rho's method strugles to factorize it.
