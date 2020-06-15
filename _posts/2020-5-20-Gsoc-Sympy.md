@@ -3,8 +3,6 @@ layout: post
 title: Google Summer of Code 2020 with Sympy!
 ---
 
-<br>
-
 From my first year i always wanted to get selected for Gsoc and do some exiciting projects, but never took it seriously. When i reached  my third year i made up my mind that it is a high time for preparig for Gsoc. For Gsoc 2020 i choose to apply to Sympy as i found this community very intresting. I took a head start and started contributing for four months before the application period. It was a really nice experience and i meet some really interesting people. I am glad that i made the right decision of choosing this organization.
 
 ----
